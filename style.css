@@ -1,0 +1,43 @@
+body { 
+    background-color:rgb(70, 57, 59) ;
+    color: white;
+}
+
+#clock {
+    text-align: center;
+    width:50% ;
+    position: absolute;
+    top: 30%;
+    left:30%;
+}
+
+#clock h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 0.03em;   
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:normal;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.clock-items {
+    width:32% ;
+    background-color: white;
+    border-radius: 10px;
+    color:rgb(70, 57, 59);
+    margin-right: 3%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+
+}
+
+#date {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
